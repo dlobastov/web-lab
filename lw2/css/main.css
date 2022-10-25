@@ -180,3 +180,80 @@ body{
 .header-icons :hover * {
     fill: #292929;
 }
+
+/* Блок с поиском */
+
+.footer-content {
+    width: 339px;
+    height: 720px;
+    margin-left: 50px;
+    padding-top: 55px;
+    padding-left: 20px;
+    border-left: 1px solid #bebebe;
+    position:-webkit-sticky; 
+    position: sticky; top:0;
+}
+
+.input-set {
+    display: flex;
+    align-items: center;
+    max-width: 301px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 43px;
+    border: 1px solid #E6E6E6CC;
+    border-radius: 20px;
+}
+
+.input {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.header-footer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700px;
+    padding-top: 29px;
+}
+
+.ellipse {
+    width: 10px;
+    height: 10px;
+    background-color: #1A8917;
+    border-radius: 50px;
+}
+
+.ellipse-set {
+    padding-right: 8px;
+}
+
+.footer-block {
+    padding-top: 15px;
+}
+
+.footer-user {
+    display: flex;
+    align-items: center;
+}
+
+.footer-avatar {
+    width: 24px;
+}
+
+.footer-name {
+    font-size: 13px;
+    padding-left: 8px;
+}
+
+.footer-text {
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.full-list {
+    margin-top: 29px;
+    color: #1A8917 ;
+}
