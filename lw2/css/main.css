@@ -59,3 +59,124 @@ body{
     padding-top: 15px;
     width: 32px;
 }
+
+/* Надписи сверху */
+
+.main-header {
+    display: inline;
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 30px;
+    display: flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    /* background-color: blueviolet; */
+}
+
+.main-head-1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #bebebe;
+}
+
+.main-head-2 {
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 70px;
+}
+
+/* Основной контент */
+
+.main {
+    margin-left: 5%;
+    margin-top: 56px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3%;
+    border-bottom: 1px solid #bebebe;    
+}
+
+.main-Follow {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #bebebe;
+}
+
+.main-Recomended {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #292929;
+    margin-left: 32px;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;  
+    border-bottom: 1px solid #bebebe;
+    padding-bottom: 2%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.name-user {
+    margin-left: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #292929;
+}
+
+.block-title {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #191919;
+}
+
+.block-text {
+    max-width: 533px;
+    font-size: 16px;    
+    margin-top: 15px;
+    color: #292929;
+}
+
+.block-info {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+
+.btn {
+    background: #bebebe;
+    border-radius: 16px;
+    padding: 6px 10px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #292929;
+}
+
+.time {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 24px;
+    color: #bebebe;
+}
+
+.block-image{
+    margin-left: 5%;
+}
+
+.header-icons :hover * {
+    fill: #292929;
+}
