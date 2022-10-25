@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Шапка */
+
+.header-set {
+    border-right: 1px solid #bebebe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 720px;
+    max-width: 80px;
+    padding-left: 30px;
+    padding-right: 20px;
+    /* background-color: red; */
+    position:-webkit-sticky; 
+    position: sticky; top:0;
+}
+
+.logo {
+    padding-left: 1px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.header-icons {
+    width: 100%;
+    padding-top: 180px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    padding-top: 15px;
+
+}
+
+.header-down-icons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.down {
+    padding-top: 15px;
+}
+
+.avatar {
+    padding-top: 15px;
+    width: 32px;
+}
